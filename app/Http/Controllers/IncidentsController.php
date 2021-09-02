@@ -19,6 +19,10 @@ class IncidentsController extends Controller
             $incidents = Incidents::all();
 
             return view('incidents.index', compact('incidents'));
-    }
+    
+            //Ou
+            //return view('incidents.index', ['incidents' => $incidents]);
+    
+        }
 
-}
+}   
