@@ -10,7 +10,7 @@
 <body>
 
 <div style="width: 900px;" class="container max-w-full mx-auto pt-4">
-        <h1 class="text-4xl font-bold mb-4">My Blog</h1>
+        <h1 class="text-4xl font-bold mb-4">CRUD RedBelt</h1>
 
         <a href="/incidents/create" class="bg-blue-500 tracking-wide text-white px-6 py-2 inline-block mb-6 shadow-lg rounded hover:shadow my-4">Add Post</a>
 

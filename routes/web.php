@@ -15,9 +15,14 @@ use App\Http\Controllers\IncidentsController;
 |
 */
 
+//Rota Padrãp
 Route::get('/', function () {
     return view('welcome');
 });
 
-//Definindo meu Controlador
+//Rotas para o Crud
 Route::get('/incidents', [IncidentsController::class, 'index']);
+Route::post('/incidents', [IncidentsController::class, 'store']);
+Route::get('/incidents/create', [IncidentsController::class, 'create']);
+Route::get('/incidents/{incident}/edit', [IncidentsController::class, 'edit']);
+Route::put('/incidents/{incident}', [IncidentsController::class, 'update']);

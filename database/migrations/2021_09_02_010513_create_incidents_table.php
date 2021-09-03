@@ -12,7 +12,9 @@ class CreateIncidentsTable extends Migration
      *
      * @return void
      */
-    public function up()
+    
+    //Tablea com dados criada
+     public function up()
     {
         Schema::create('incidents', function (Blueprint $table) {
             $table->id();
@@ -21,6 +23,8 @@ class CreateIncidentsTable extends Migration
             $table->string('criticality');
             $table->string('type');
             $table->string('status');
+
+            
             
             $table->timestamps();
         });
