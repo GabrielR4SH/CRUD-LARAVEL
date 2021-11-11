@@ -1,9 +1,5 @@
 <h1 align="center">CRUD EM LARAVEL</h1>
 
-<p align="center"><a href="https://www.redbelt.com.br" target="_blank"><img src= "https://user-images.githubusercontent.com/59832080/131591547-d23a6b52-002f-43e2-9387-5698e7075214.png"
-</p>
-
-<p align="center"> A melhor empresa de CyberSecurity</p>
 
 ## CONFIGURE O PROJETO
 
